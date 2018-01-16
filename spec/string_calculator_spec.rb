@@ -1,3 +1,5 @@
+# https://semaphoreci.com/community/tutorials/getting-started-with-rspec
+
 require "string_calculator"
 
 describe StringCalculator do
