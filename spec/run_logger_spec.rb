@@ -1,3 +1,6 @@
+# TODO use this for more good syntax examples: http://www.betterspecs.org/
+
+
 # https://semaphoreci.com/community/tutorials/rspec-subject-helpers-hooks-and-exception-handling
 
 
@@ -80,6 +83,8 @@ end
 describe RunningWeek do
 
   # PREPARE THE DATA TO BE USED MULTIPLE TIMES------------------------------------------------------
+  # The below are examples of NAMED LETs (can refer to the example explictly using its name)
+
 
   let(:monday_run) do
     Run.new(:duration => 32,
