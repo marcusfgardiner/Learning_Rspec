@@ -11,6 +11,9 @@ describe Run do
   describe "attributes" do
 
     # PREPARE THE DATA POINT TO BE USED MULTIPLE TIMES------------------------------------------------------
+    
+    # By default, subject is in an instance of the class name above, 'Run'.
+    #If didn't define subject in a code block, it was simply be an instance of Run.new
     subject do
       Run.new(:duration => 32,
               :distance => 5.2,
@@ -85,7 +88,7 @@ describe RunningWeek do
   # PREPARE THE DATA TO BE USED MULTIPLE TIMES------------------------------------------------------
   # The below are examples of NAMED LETs (can refer to the example explictly using its name)
 
-
+# The below is just a code block that the example is equalling
   let(:monday_run) do
     Run.new(:duration => 32,
             :distance => 5.2,
