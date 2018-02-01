@@ -11,7 +11,7 @@ describe Run do
   describe "attributes" do
 
     # PREPARE THE DATA POINT TO BE USED MULTIPLE TIMES------------------------------------------------------
-    
+
     # By default, subject is in an instance of the class name above, 'Run'.
     #If didn't define subject in a code block, it was simply be an instance of Run.new
     subject do
